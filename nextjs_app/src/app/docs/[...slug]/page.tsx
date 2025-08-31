@@ -1,6 +1,8 @@
+
+
 export default async function docs(
 {params,
-}:{params: Promise<{ slug: string[] }>;}){
+}:{params: Promise<{slug: string[] }>;}){
     const {slug} = await params;
     if(slug.length === 2){
         return <h1>Viewing docs for {slug[0]} and {slug[1]}</h1>;
