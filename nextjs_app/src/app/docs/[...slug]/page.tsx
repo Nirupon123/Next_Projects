@@ -11,6 +11,6 @@ export default async function docs(
         return <h1>Viewing docs for {slug[0]}</h1>;
     }
     else{
-        return <h1>Docs Home Page</h1>;
+        return <h1>Home Page</h1>;
     }
 }
